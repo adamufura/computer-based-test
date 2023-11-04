@@ -1,0 +1,114 @@
+body {
+  position: relative;
+  padding-top: 3.5rem;
+}
+.bg-dark {
+  background-color: #17a2b7 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #fff;
+}
+.btnD1{
+  border: none;
+  background: #17a2b7;
+  color: #fff;
+}
+.card-groupp{
+  background: #17a2b7;
+}
+button:hover{
+  border: none;
+}
+.pOne{
+  color: #fff
+}
+.bt{
+  border: 3px solid transparent;
+  background: blue;
+  width: 292px;
+  
+}
+.sign{
+  border-radius: 15px;
+}
+.s2{
+  background: white;
+}
+body{
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} 
+footer{
+    background: #000;
+    color: #f8d801;
+}
+.btn1{
+    background: #f8d801;
+    /* border: solid #000; */
+}
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
